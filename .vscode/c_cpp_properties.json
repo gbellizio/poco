@@ -16,6 +16,7 @@
 			"${POCO_BASE}/Data/ODBC/include",
 			"${POCO_BASE}/Data/MySQL/include",
 			"${POCO_BASE}/Data/PostgreSQL/include",
+      "${POCO_BASE}/ActiveRecord/include",
 			"${POCO_BASE}/Zip/include",
 			"${POCO_BASE}/CppParser/include",
 			"${POCO_BASE}/JWT/include",
@@ -28,7 +29,7 @@
     {
       "name": "Mac",
       "intelliSenseMode": "clang-x64",
-      "includePath": ["${pocoIncludePath}"],
+      "includePath": ["${pocoIncludePath}", "/usr/local/opt/openssl@3/include"],
       "macFrameworkPath": ["/System/Library/Frameworks"],
       "defines": [],
       "forcedInclude": [],
